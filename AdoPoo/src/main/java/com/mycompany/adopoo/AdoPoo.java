@@ -4,6 +4,7 @@
 
 package com.mycompany.adopoo;
 
+import com.mycompany.beneficios.ValeRefeicao;
 import com.mycompany.beneficios.ValeTransporte;
 
 /**
@@ -15,8 +16,10 @@ public class AdoPoo {
     public static void main(String[] args) {
         
         
-        ValeTransporte vt = new ValeTransporte();
+        ValeRefeicao vt = new ValeRefeicao();
+        
         
         System.out.println(vt.calculaDescontoBeneficio(2000));
+        
     }
 }
