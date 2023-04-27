@@ -4,6 +4,8 @@
 
 package com.mycompany.adopoo;
 
+import com.mycompany.beneficios.ValeTransporte;
+
 /**
  *
  * @author Drac
@@ -11,6 +13,10 @@ package com.mycompany.adopoo;
 public class AdoPoo {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        
+        ValeTransporte vt = new ValeTransporte();
+        
+        System.out.println(vt.calculaDescontoBeneficio(2000));
     }
 }
