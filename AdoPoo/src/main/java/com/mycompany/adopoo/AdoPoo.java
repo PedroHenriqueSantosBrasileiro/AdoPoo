@@ -6,6 +6,7 @@ package com.mycompany.adopoo;
 
 import com.mycompany.beneficios.ValeRefeicao;
 import com.mycompany.beneficios.ValeTransporte;
+import com.mycompany.funcionario.Funcionario;
 
 /**
  *
@@ -19,7 +20,9 @@ public class AdoPoo {
         ValeRefeicao vt = new ValeRefeicao();
         
         
-        System.out.println(vt.calculaDescontoBeneficio(2000));
+        Funcionario funcionario = new Funcionario("Pedro",2000,30,100);
+        
+        System.out.println(funcionario);
         
     }
 }
