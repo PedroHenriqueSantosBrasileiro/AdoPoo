@@ -60,7 +60,7 @@ public class Funcionario {
         holerite += "\nConvenio Médico: R$ " + String.format("%.2f", this.convenio);
         holerite += "\n------------------------------------------";
         holerite += "\nSalario Liquido: R$ " + String.format("%.2f", this.salarioLiquido);
-        holerite +="\n---------------------------------------------\n";
+        holerite +="\n------------------------------------------\n";
         
         
         return holerite;

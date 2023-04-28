@@ -38,6 +38,7 @@ public class Main {
                     double bonificacao = tcNumero.nextDouble();
                     Funcionario funcionario = new Funcionario(nome,salario,horaExtra,bonificacao);
                     lista.adiciona(funcionario);
+                    System.out.println("Funcionário adicionado com sucesso");
                     System.out.println("");
                 }
                 case 2 -> lista.imprimeLista();
@@ -48,5 +49,6 @@ public class Main {
                 }
             }
         } while (resp != 3);
+        System.out.println("Programa Encerrado");
     }
 }
