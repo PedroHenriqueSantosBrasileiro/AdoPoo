@@ -1,13 +1,29 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
+
 package com.mycompany.lista;
 
-/**
- *
- * @author Drac
- */
+import com.mycompany.funcionario.Funcionario;
+
 public class Nodo {
+    
+    private Funcionario dado;
+    private Nodo proximo;
+
+    public Funcionario getDado() {
+        return dado;
+    }
+
+    public void setDado(Funcionario dado) {
+        this.dado = dado;
+    }
+
+    public Nodo getProximo() {
+        return proximo;
+    }
+
+    public void setProximo(Nodo proximo) {
+        this.proximo = proximo;
+    }
+    
+    
     
 }
