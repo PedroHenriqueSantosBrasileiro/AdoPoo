@@ -44,7 +44,7 @@ public class Funcionario {
      
         String holerite;
         
-        holerite = "----------------------------------------------";
+        holerite = "------------------------------------------";
         holerite += "\nNome: " + this.nome;
         holerite += "\n--------------Proventos-------------------";
         holerite += "\nSalario Bruto: R$ " + String.format("%.2f", this.salarioBruto);
@@ -60,6 +60,8 @@ public class Funcionario {
         holerite += "\nConvenio Médico: R$ " + String.format("%.2f", this.convenio);
         holerite += "\n------------------------------------------";
         holerite += "\nSalario Liquido: R$ " + String.format("%.2f", this.salarioLiquido);
+        holerite +="\n---------------------------------------------\n";
+        
         
         return holerite;
         
