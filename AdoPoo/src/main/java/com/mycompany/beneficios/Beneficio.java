@@ -27,6 +27,10 @@ public abstract class Beneficio {
     public void setAliquota(int aliquota) {
         this.aliquota = aliquota;
     }
+
+    public double getSalarioMinimo() {
+        return salarioMinimo;
+    }
     
     
     

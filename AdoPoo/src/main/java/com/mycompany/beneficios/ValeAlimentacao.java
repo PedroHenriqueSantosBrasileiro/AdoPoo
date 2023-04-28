@@ -1,13 +1,21 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package com.mycompany.beneficios;
 
-/**
- *
- * @author Drac
- */
-public class ValeAlimentacao {
-    
+public class ValeAlimentacao extends Beneficio {
+
+    public ValeAlimentacao() {
+        this.setAliquota(2);
+    }
+
+    @Override
+    public double calculaDescontoBeneficio(double salario) {
+        double desconto;
+
+        if (salario <= this.getSalarioMinimo() * 2) {
+            desconto = 0;
+        } else {
+            desconto = (salario * (double) this.getAliquota()) / 100;
+        }
+
+        return desconto;
+    }
 }
