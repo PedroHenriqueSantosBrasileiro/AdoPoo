@@ -28,7 +28,7 @@ public class Funcionario {
         this.horaExtra = horaExtra;
         this.bonificacao = bonificacao;
         this.salarioTotal = salarioBruto + horaExtra;
-        this.irfp = new Irpf().calculaImposto(salarioTotal);
+        this.irfp = new Irpf().calculaImposto(salarioTotal - new Inss().calculaImposto(salarioTotal));
         this.inss = new Inss().calculaImposto(salarioTotal);
         this.vt = new ValeTransporte().calculaDescontoBeneficio(salarioBruto);
         this.vr = new ValeRefeicao().calculaDescontoBeneficio(salarioBruto);
