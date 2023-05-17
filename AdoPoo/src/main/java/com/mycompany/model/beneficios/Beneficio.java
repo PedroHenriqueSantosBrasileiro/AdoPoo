@@ -1,5 +1,5 @@
 
-package com.mycompany.beneficios;
+package com.mycompany.model.beneficios;
 
 
 public abstract class Beneficio {

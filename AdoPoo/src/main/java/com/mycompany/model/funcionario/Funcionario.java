@@ -1,11 +1,11 @@
-package com.mycompany.funcionario;
+package com.mycompany.model.funcionario;
 
-import com.mycompany.beneficios.ConvenioMedico;
-import com.mycompany.beneficios.ValeAlimentacao;
-import com.mycompany.beneficios.ValeRefeicao;
-import com.mycompany.beneficios.ValeTransporte;
-import com.mycompany.imposto.Inss;
-import com.mycompany.imposto.Irpf;
+import com.mycompany.model.beneficios.ConvenioMedico;
+import com.mycompany.model.beneficios.ValeAlimentacao;
+import com.mycompany.model.beneficios.ValeRefeicao;
+import com.mycompany.model.beneficios.ValeTransporte;
+import com.mycompany.model.imposto.Inss;
+import com.mycompany.model.imposto.Irpf;
 
 public class Funcionario {
 

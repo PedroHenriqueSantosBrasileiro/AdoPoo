@@ -1,4 +1,4 @@
-package com.mycompany.beneficios;
+package com.mycompany.model.beneficios;
 
 public class ValeAlimentacao extends Beneficio {
 

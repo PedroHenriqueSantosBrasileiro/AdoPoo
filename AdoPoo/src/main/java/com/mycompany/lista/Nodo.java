@@ -1,7 +1,7 @@
 
 package com.mycompany.lista;
 
-import com.mycompany.funcionario.Funcionario;
+import com.mycompany.model.funcionario.Funcionario;
 
 public class Nodo {
     

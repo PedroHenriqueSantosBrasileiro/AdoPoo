@@ -1,5 +1,5 @@
 
-package com.mycompany.imposto;
+package com.mycompany.model.imposto;
 
 
 public class Irpf implements Imposto {
